@@ -100,7 +100,7 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="ArtifactInterface"/>
   </eSubpackages>
-  <eSubpackages name="metamodel">
+  <eSubpackages name="metamodel" nsURI="http://metamodel" nsPrefix="metamodel">
     <eClassifiers xsi:type="ecore:EClass" name="Class">
       <eStructuralFeatures xsi:type="ecore:EReference" name="relationships" upperBound="-1"
           eType="#//metamodel/Relation" containment="true"/>
@@ -114,7 +114,7 @@
     </eClassifiers>
     <eClassifiers xsi:type="ecore:EClass" name="Required"/>
   </eSubpackages>
-  <eSubpackages name="operationalsemantics">
+  <eSubpackages name="operationalsemantics" nsURI="http://operationalsemantics" nsPrefix="operationalsemantics">
     <eClassifiers xsi:type="ecore:EClass" name="OpenClass">
       <eStructuralFeatures xsi:type="ecore:EReference" name="class" lowerBound="1"
           eType="#//metamodel/Class"/>

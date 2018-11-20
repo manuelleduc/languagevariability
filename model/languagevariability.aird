@@ -4827,6 +4827,45 @@
           <styles xmi:type="notation:ShapeStyle" xmi:id="__1XplezgEei58K2JnfQ5Vg" fontName="Cantarell" fontHeight="8"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="__1XpluzgEei58K2JnfQ5Vg" x="48" y="276" width="145" height="111"/>
         </children>
+        <children xmi:type="notation:Node" xmi:id="_Jo21gOzkEei58K2JnfQ5Vg" type="2003" element="_JoxV8OzkEei58K2JnfQ5Vg">
+          <children xmi:type="notation:Node" xmi:id="_Jo21g-zkEei58K2JnfQ5Vg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_Jo21hOzkEei58K2JnfQ5Vg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_Jo3clOzkEei58K2JnfQ5Vg" type="3010" element="_Jo1AUOzkEei58K2JnfQ5Vg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_Jo3clezkEei58K2JnfQ5Vg" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Jo3cluzkEei58K2JnfQ5Vg"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Jo3cl-zkEei58K2JnfQ5Vg" type="3010" element="_Jo1AUuzkEei58K2JnfQ5Vg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_Jo3cmOzkEei58K2JnfQ5Vg" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Jo3cmezkEei58K2JnfQ5Vg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Jo21hezkEei58K2JnfQ5Vg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Jo21huzkEei58K2JnfQ5Vg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Jo21gezkEei58K2JnfQ5Vg" fontName="Cantarell" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jo21guzkEei58K2JnfQ5Vg" x="876" y="253"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Jo21h-zkEei58K2JnfQ5Vg" type="2003" element="_JoykEOzkEei58K2JnfQ5Vg">
+          <children xmi:type="notation:Node" xmi:id="_Jo21iuzkEei58K2JnfQ5Vg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_Jo21i-zkEei58K2JnfQ5Vg" type="7004">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Jo21jOzkEei58K2JnfQ5Vg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Jo21jezkEei58K2JnfQ5Vg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Jo21iOzkEei58K2JnfQ5Vg" fontName="Cantarell" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jo21iezkEei58K2JnfQ5Vg" x="780" y="444" width="124" height="137"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_Jo21juzkEei58K2JnfQ5Vg" type="2003" element="_JoykEuzkEei58K2JnfQ5Vg">
+          <children xmi:type="notation:Node" xmi:id="_Jo3ckOzkEei58K2JnfQ5Vg" type="5007"/>
+          <children xmi:type="notation:Node" xmi:id="_Jo3ckezkEei58K2JnfQ5Vg" type="7004">
+            <children xmi:type="notation:Node" xmi:id="_Jo3cmuzkEei58K2JnfQ5Vg" type="3010" element="_Jo1nYOzkEei58K2JnfQ5Vg">
+              <styles xmi:type="notation:FontStyle" xmi:id="_Jo3cm-zkEei58K2JnfQ5Vg" fontName="Cantarell" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Jo3cnOzkEei58K2JnfQ5Vg"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_Jo3ckuzkEei58K2JnfQ5Vg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_Jo3ck-zkEei58K2JnfQ5Vg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_Jo21j-zkEei58K2JnfQ5Vg" fontName="Cantarell" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jo21kOzkEei58K2JnfQ5Vg" x="996" y="456" width="171" height="123"/>
+        </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_-4i0-OzgEei58K2JnfQ5Vg"/>
         <edges xmi:type="notation:Edge" xmi:id="__1Y3sOzgEei58K2JnfQ5Vg" type="4001" element="__1TYIOzgEei58K2JnfQ5Vg" source="__1VNUOzgEei58K2JnfQ5Vg" target="__1XCg-zgEei58K2JnfQ5Vg">
           <children xmi:type="notation:Node" xmi:id="__1Y3tOzgEei58K2JnfQ5Vg" type="6001">
@@ -4924,9 +4963,57 @@
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__1ciHOzgEei58K2JnfQ5Vg" id="(0.6713286713286714,0.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__1ciHezgEei58K2JnfQ5Vg" id="(0.003610108303249097,0.25688073394495414)"/>
         </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Jo4DoOzkEei58K2JnfQ5Vg" type="4001" element="_Jo1nYuzkEei58K2JnfQ5Vg" source="__1VNUOzgEei58K2JnfQ5Vg" target="_Jo21gOzkEei58K2JnfQ5Vg">
+          <children xmi:type="notation:Node" xmi:id="_Jo4DpOzkEei58K2JnfQ5Vg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jo4DpezkEei58K2JnfQ5Vg" x="3" y="-11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Jo4DpuzkEei58K2JnfQ5Vg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jo4Dp-zkEei58K2JnfQ5Vg" x="-5" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Jo4DqOzkEei58K2JnfQ5Vg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jo4DqezkEei58K2JnfQ5Vg" x="-5" y="9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Jo4DoezkEei58K2JnfQ5Vg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Jo4DouzkEei58K2JnfQ5Vg" fontName="Cantarell" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Jo4Do-zkEei58K2JnfQ5Vg" points="[94, 55, -299, -174]$[341, 199, -52, -30]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jo4qsOzkEei58K2JnfQ5Vg" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jo4qsezkEei58K2JnfQ5Vg" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Jo4qsuzkEei58K2JnfQ5Vg" type="4001" element="_Jo1nZezkEei58K2JnfQ5Vg" source="_Jo21gOzkEei58K2JnfQ5Vg" target="__1XCg-zgEei58K2JnfQ5Vg">
+          <children xmi:type="notation:Node" xmi:id="_Jo4qtuzkEei58K2JnfQ5Vg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jo4qt-zkEei58K2JnfQ5Vg" x="6" y="-8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Jo4quOzkEei58K2JnfQ5Vg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jo4quezkEei58K2JnfQ5Vg" x="-6" y="8"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Jo4quuzkEei58K2JnfQ5Vg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jo4qu-zkEei58K2JnfQ5Vg" x="-8" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Jo4qs-zkEei58K2JnfQ5Vg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Jo4qtOzkEei58K2JnfQ5Vg" fontName="Cantarell" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Jo4qtezkEei58K2JnfQ5Vg" points="[-63, 0, 373, 0]$[-389, 0, 47, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jo4qvOzkEei58K2JnfQ5Vg" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jo4qvezkEei58K2JnfQ5Vg" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_Jo4qvuzkEei58K2JnfQ5Vg" type="4001" element="_Jo2OcuzkEei58K2JnfQ5Vg" source="_Jo21juzkEei58K2JnfQ5Vg" target="_Jo21h-zkEei58K2JnfQ5Vg">
+          <children xmi:type="notation:Node" xmi:id="_Jo5RwOzkEei58K2JnfQ5Vg" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jo5RwezkEei58K2JnfQ5Vg" x="-4" y="9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Jo5RwuzkEei58K2JnfQ5Vg" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jo5Rw-zkEei58K2JnfQ5Vg" x="4" y="-9"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Jo5RxOzkEei58K2JnfQ5Vg" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jo5RxezkEei58K2JnfQ5Vg" x="4" y="-9"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_Jo4qv-zkEei58K2JnfQ5Vg"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_Jo4qwOzkEei58K2JnfQ5Vg" fontName="Cantarell" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Jo4qwezkEei58K2JnfQ5Vg" points="[-46, 23, 115, -58]$[-142, 71, 19, -10]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jo5RxuzkEei58K2JnfQ5Vg" id="(0.2869822485207101,0.1859504132231405)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jo5Rx-zkEei58K2JnfQ5Vg" id="(0.8442622950819673,0.8555555555555555)"/>
+        </edges>
       </data>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="__1MDYOzgEei58K2JnfQ5Vg" name="http://concern" outgoingEdges="__1TYIOzgEei58K2JnfQ5Vg __1TYI-zgEei58K2JnfQ5Vg" incomingEdges="__1UmRuzgEei58K2JnfQ5Vg">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="__1MDYOzgEei58K2JnfQ5Vg" name="http://concern" outgoingEdges="__1TYIOzgEei58K2JnfQ5Vg __1TYI-zgEei58K2JnfQ5Vg _Jo1nYuzkEei58K2JnfQ5Vg" incomingEdges="__1UmRuzgEei58K2JnfQ5Vg">
       <target xmi:type="ecore:EPackage" href="languagevariability.ecore#//concern"/>
       <semanticElements xmi:type="ecore:EPackage" href="languagevariability.ecore#//concern"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -4936,7 +5023,7 @@
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@containerMappings[name='Analyzed%20Package']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@containerMappings[name='Analyzed%20Package']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="__1QU0OzgEei58K2JnfQ5Vg" name="LanguageConcernInterface (3)" tooltipText="Dependency to http://language: &#xA; - EReference unimplementedinterfacerule refers to type UnimplementedInterfaceRule in package language&#xA; - EReference startrule refers to type StartRule in package language&#xA;Dependency to http://context: &#xA; - EReference contextcondition refers to type ContextCondition in package context">
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="__1QU0OzgEei58K2JnfQ5Vg" name="LanguageConcernInterface (3)" tooltipText="Dependency to http://grammar: &#xA; - EReference unimplementedinterfacerule refers to type UnimplementedInterfaceRule in package grammar&#xA; - EReference startrule refers to type StartRule in package grammar&#xA;Dependency to http://context: &#xA; - EReference contextcondition refers to type ContextCondition in package context&#xA;Dependency to http://codegeneration: &#xA; - EReference generatorinterface refers to type GeneratorInterface in package codegeneration">
         <target xmi:type="ecore:EClass" href="languagevariability.ecore#//concern/LanguageConcernInterface"/>
         <semanticElements xmi:type="ecore:EClass" href="languagevariability.ecore#//concern/LanguageConcernInterface"/>
         <ownedStyle xmi:type="diagram:BundledImage" xmi:id="__1QU0ezgEei58K2JnfQ5Vg" labelAlignment="LEFT" labelPosition="node">
@@ -4944,7 +5031,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@containerMappings[name='Analyzed%20Package']/@subNodeMappings[name='EClassfierIntroducingDependency']"/>
       </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="__1Q74OzgEei58K2JnfQ5Vg" name="LanguageConcernImplementation (4)" tooltipText="Dependency to http://language: &#xA; - EReference grammar refers to type Grammar in package language&#xA;Dependency to http://context: &#xA; - EReference contextcondition refers to type ContextCondition in package context">
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="__1Q74OzgEei58K2JnfQ5Vg" name="LanguageConcernImplementation (4)" tooltipText="Dependency to http://grammar: &#xA; - EReference grammar refers to type Grammar in package grammar&#xA;Dependency to http://context: &#xA; - EReference contextcondition refers to type ContextCondition in package context&#xA;Dependency to http://codegeneration: &#xA; - EReference codegenerator refers to type CodeGenerator in package codegeneration">
         <target xmi:type="ecore:EClass" href="languagevariability.ecore#//concern/LanguageConcernImplementation"/>
         <semanticElements xmi:type="ecore:EClass" href="languagevariability.ecore#//concern/LanguageConcernImplementation"/>
         <ownedStyle xmi:type="diagram:BundledImage" xmi:id="__1Q74ezgEei58K2JnfQ5Vg" labelAlignment="LEFT" labelPosition="node">
@@ -4963,7 +5050,7 @@
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@containerMappings[name='Analyzed%20Package']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@containerMappings[name='Analyzed%20Package']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="__1Ri8OzgEei58K2JnfQ5Vg" name="ContextCondition (1)" tooltipText="Dependency to http://language: &#xA; - EReference rule refers to type Rule in package language">
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="__1Ri8OzgEei58K2JnfQ5Vg" name="ContextCondition (1)" tooltipText="Dependency to http://grammar: &#xA; - EReference rule refers to type Rule in package grammar">
         <target xmi:type="ecore:EClass" href="languagevariability.ecore#//context/ContextCondition"/>
         <semanticElements xmi:type="ecore:EClass" href="languagevariability.ecore#//context/ContextCondition"/>
         <ownedStyle xmi:type="diagram:BundledImage" xmi:id="__1Ri8ezgEei58K2JnfQ5Vg" labelAlignment="LEFT" labelPosition="node">
@@ -4972,7 +5059,7 @@
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@containerMappings[name='Analyzed%20Package']/@subNodeMappings[name='EClassfierIntroducingDependency']"/>
       </ownedElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="__1NRgezgEei58K2JnfQ5Vg" name="http://language" incomingEdges="__1TYIOzgEei58K2JnfQ5Vg __1T_NOzgEei58K2JnfQ5Vg __1UmQOzgEei58K2JnfQ5Vg">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="__1NRgezgEei58K2JnfQ5Vg" name="http://grammar" incomingEdges="__1TYIOzgEei58K2JnfQ5Vg __1T_NOzgEei58K2JnfQ5Vg __1UmQOzgEei58K2JnfQ5Vg _Jo1nZezkEei58K2JnfQ5Vg">
       <target xmi:type="ecore:EPackage" href="languagevariability.ecore#//grammar"/>
       <semanticElements xmi:type="ecore:EPackage" href="languagevariability.ecore#//grammar"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -4993,7 +5080,7 @@
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@containerMappings[name='Analyzed%20Package']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@containerMappings[name='Analyzed%20Package']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="__1Ri8uzgEei58K2JnfQ5Vg" name="ParentFeatureExtensionPoint (2)" tooltipText="Dependency to http://variability: &#xA; - EReference feature refers to type Feature in package variability&#xA;Dependency to http://language: &#xA; - EReference unimplementedinterfacerule refers to type UnimplementedInterfaceRule in package language">
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="__1Ri8uzgEei58K2JnfQ5Vg" name="ParentFeatureExtensionPoint (2)" tooltipText="Dependency to http://variability: &#xA; - EReference feature refers to type Feature in package variability&#xA;Dependency to http://grammar: &#xA; - EReference unimplementedinterfacerule refers to type UnimplementedInterfaceRule in package grammar">
         <target xmi:type="ecore:EClass" href="languagevariability.ecore#//Mapping/ParentFeatureExtensionPoint"/>
         <semanticElements xmi:type="ecore:EClass" href="languagevariability.ecore#//Mapping/ParentFeatureExtensionPoint"/>
         <ownedStyle xmi:type="diagram:BundledImage" xmi:id="__1Ri8-zgEei58K2JnfQ5Vg" labelAlignment="LEFT" labelPosition="node">
@@ -5009,7 +5096,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@containerMappings[name='Analyzed%20Package']/@subNodeMappings[name='EClassfierIntroducingDependency']"/>
       </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="__1SKAezgEei58K2JnfQ5Vg" name="ChildFeatureImplementation (2)" tooltipText="Dependency to http://variability: &#xA; - EReference feature refers to type Feature in package variability&#xA;Dependency to http://language: &#xA; - EReference startrule refers to type StartRule in package language">
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="__1SKAezgEei58K2JnfQ5Vg" name="ChildFeatureImplementation (2)" tooltipText="Dependency to http://variability: &#xA; - EReference feature refers to type Feature in package variability&#xA;Dependency to http://grammar: &#xA; - EReference startrule refers to type StartRule in package grammar">
         <target xmi:type="ecore:EClass" href="languagevariability.ecore#//Mapping/ChildFeatureImplementation"/>
         <semanticElements xmi:type="ecore:EClass" href="languagevariability.ecore#//Mapping/ChildFeatureImplementation"/>
         <ownedStyle xmi:type="diagram:BundledImage" xmi:id="__1SKAuzgEei58K2JnfQ5Vg" labelAlignment="LEFT" labelPosition="node">
@@ -5082,6 +5169,84 @@
       <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="__1UmR-zgEei58K2JnfQ5Vg" lineStyle="dash" size="2" strokeColor="239,41,41">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@edgeMappings[name='Package%20Dependency']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="__1UmSOzgEei58K2JnfQ5Vg"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@edgeMappings[name='Package%20Dependency']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_JoxV8OzkEei58K2JnfQ5Vg" name="http://codegeneration" outgoingEdges="_Jo1nZezkEei58K2JnfQ5Vg" incomingEdges="_Jo1nYuzkEei58K2JnfQ5Vg">
+      <target xmi:type="ecore:EPackage" href="languagevariability.ecore#//codegeneration"/>
+      <semanticElements xmi:type="ecore:EPackage" href="languagevariability.ecore#//codegeneration"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_JoxV8ezkEei58K2JnfQ5Vg" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="217,210,220">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@containerMappings[name='Analyzed%20Package']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@containerMappings[name='Analyzed%20Package']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_Jo1AUOzkEei58K2JnfQ5Vg" name="CodeGenerator (2)" tooltipText="Dependency to http://grammar: &#xA; - EReference startrule refers to type StartRule in package grammar">
+        <target xmi:type="ecore:EClass" href="languagevariability.ecore#//codegeneration/CodeGenerator"/>
+        <semanticElements xmi:type="ecore:EClass" href="languagevariability.ecore#//codegeneration/CodeGenerator"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Jo1AUezkEei58K2JnfQ5Vg" labelAlignment="LEFT" labelPosition="node">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@containerMappings[name='Analyzed%20Package']/@subNodeMappings[name='EClassfierIntroducingDependency']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@containerMappings[name='Analyzed%20Package']/@subNodeMappings[name='EClassfierIntroducingDependency']"/>
+      </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_Jo1AUuzkEei58K2JnfQ5Vg" name="ExtensionPoint (2)" tooltipText="Dependency to http://grammar: &#xA; - EReference unimplementedinterfacerule refers to type UnimplementedInterfaceRule in package grammar">
+        <target xmi:type="ecore:EClass" href="languagevariability.ecore#//codegeneration/ExtensionPoint"/>
+        <semanticElements xmi:type="ecore:EClass" href="languagevariability.ecore#//codegeneration/ExtensionPoint"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Jo1AU-zkEei58K2JnfQ5Vg" labelAlignment="LEFT" labelPosition="node">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@containerMappings[name='Analyzed%20Package']/@subNodeMappings[name='EClassfierIntroducingDependency']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@containerMappings[name='Analyzed%20Package']/@subNodeMappings[name='EClassfierIntroducingDependency']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_JoykEOzkEei58K2JnfQ5Vg" name="http://metamodel" incomingEdges="_Jo2OcuzkEei58K2JnfQ5Vg">
+      <target xmi:type="ecore:EPackage" href="languagevariability.ecore#//metamodel"/>
+      <semanticElements xmi:type="ecore:EPackage" href="languagevariability.ecore#//metamodel"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_JoykEezkEei58K2JnfQ5Vg" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="217,210,220">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@containerMappings[name='Analyzed%20Package']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@containerMappings[name='Analyzed%20Package']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_JoykEuzkEei58K2JnfQ5Vg" name="http://operationalsemantics" outgoingEdges="_Jo2OcuzkEei58K2JnfQ5Vg">
+      <target xmi:type="ecore:EPackage" href="languagevariability.ecore#//operationalsemantics"/>
+      <semanticElements xmi:type="ecore:EPackage" href="languagevariability.ecore#//operationalsemantics"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_JoykE-zkEei58K2JnfQ5Vg" labelAlignment="LEFT" borderSize="1" borderSizeComputationExpression="1" borderColor="125,125,125" backgroundStyle="Liquid" foregroundColor="217,210,220">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@containerMappings[name='Analyzed%20Package']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@containerMappings[name='Analyzed%20Package']"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_Jo1nYOzkEei58K2JnfQ5Vg" name="OpenClass (2)" tooltipText="Dependency to http://metamodel: &#xA; - EReference class refers to type Class in package metamodel">
+        <target xmi:type="ecore:EClass" href="languagevariability.ecore#//operationalsemantics/OpenClass"/>
+        <semanticElements xmi:type="ecore:EClass" href="languagevariability.ecore#//operationalsemantics/OpenClass"/>
+        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_Jo1nYezkEei58K2JnfQ5Vg" labelAlignment="LEFT" labelPosition="node">
+          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@containerMappings[name='Analyzed%20Package']/@subNodeMappings[name='EClassfierIntroducingDependency']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@containerMappings[name='Analyzed%20Package']/@subNodeMappings[name='EClassfierIntroducingDependency']"/>
+      </ownedElements>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_Jo1nYuzkEei58K2JnfQ5Vg" sourceNode="__1MDYOzgEei58K2JnfQ5Vg" targetNode="_JoxV8OzkEei58K2JnfQ5Vg">
+      <target xmi:type="ecore:EPackage" href="languagevariability.ecore#//concern"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_Jo1nY-zkEei58K2JnfQ5Vg" lineStyle="dash" size="2" strokeColor="239,41,41">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@edgeMappings[name='Package%20Dependency']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_Jo1nZOzkEei58K2JnfQ5Vg"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@edgeMappings[name='Package%20Dependency']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_Jo1nZezkEei58K2JnfQ5Vg" sourceNode="_JoxV8OzkEei58K2JnfQ5Vg" targetNode="__1NRgezgEei58K2JnfQ5Vg">
+      <target xmi:type="ecore:EPackage" href="languagevariability.ecore#//codegeneration"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_Jo2OcOzkEei58K2JnfQ5Vg" lineStyle="dash" size="2" strokeColor="239,41,41">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@edgeMappings[name='Package%20Dependency']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_Jo2OcezkEei58K2JnfQ5Vg"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@edgeMappings[name='Package%20Dependency']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_Jo2OcuzkEei58K2JnfQ5Vg" sourceNode="_JoykEuzkEei58K2JnfQ5Vg" targetNode="_JoykEOzkEei58K2JnfQ5Vg">
+      <target xmi:type="ecore:EPackage" href="languagevariability.ecore#//operationalsemantics"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_Jo2Oc-zkEei58K2JnfQ5Vg" lineStyle="dash" size="2" strokeColor="239,41,41">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@edgeMappings[name='Package%20Dependency']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_Jo2OdOzkEei58K2JnfQ5Vg"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Dependencies']/@defaultLayer/@edgeMappings[name='Package%20Dependency']"/>
     </ownedDiagramElements>
