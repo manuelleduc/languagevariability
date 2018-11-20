@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/languagevariability/src-gen" creationIcons="false"
+    editDirectory="/languagevariability.edit/src-gen" editorDirectory="/languagevariability.editor/src-gen"
+    modelPluginID="languagevariability" modelName="Languagevariability" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    codeFormatting="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="10.0"
+    copyrightFields="false" usedGenPackages="#//languagevariability/variability #//languagevariability/metamodel"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>languagevariability.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="Languagevariability" disposableProviderFactory="true" ecorePackage="languagevariability.ecore#/">
+    <nestedGenPackages prefix="NewPackage1" disposableProviderFactory="true" ecorePackage="languagevariability.ecore#//variability">
+      <genClasses ecoreClass="languagevariability.ecore#//variability/FeatureModel">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//variability/FeatureModel/features"/>
+      </genClasses>
+      <genClasses ecoreClass="languagevariability.ecore#//variability/Feature">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference languagevariability.ecore#//variability/Feature/children"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//variability/Feature/languageconcerninterface"/>
+      </genClasses>
+      <genClasses ecoreClass="languagevariability.ecore#//variability/FeatureGroup">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference languagevariability.ecore#//variability/FeatureGroup/members"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference languagevariability.ecore#//variability/FeatureGroup/constraints"/>
+      </genClasses>
+      <genClasses ecoreClass="languagevariability.ecore#//variability/Constraint"/>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="NewPackage2" disposableProviderFactory="true" ecorePackage="languagevariability.ecore#//Mapping">
+      <genClasses ecoreClass="languagevariability.ecore#//Mapping/ParentFeatureExtensionPoint">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//Mapping/ParentFeatureExtensionPoint/feature"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//Mapping/ParentFeatureExtensionPoint/unimplementedinterfacerule"/>
+      </genClasses>
+      <genClasses ecoreClass="languagevariability.ecore#//Mapping/FeatureModelBinding">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//Mapping/FeatureModelBinding/parentfeatureextensionpoint"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//Mapping/FeatureModelBinding/childfeatureimplementation"/>
+      </genClasses>
+      <genClasses ecoreClass="languagevariability.ecore#//Mapping/BindingRule">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//Mapping/BindingRule/featuremodelbinding"/>
+      </genClasses>
+      <genClasses ecoreClass="languagevariability.ecore#//Mapping/FeatureModelBinding2">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference languagevariability.ecore#//Mapping/FeatureModelBinding2/bindingrule"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//Mapping/FeatureModelBinding2/featuremodel"/>
+      </genClasses>
+      <genClasses ecoreClass="languagevariability.ecore#//Mapping/ChildFeatureImplementation">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//Mapping/ChildFeatureImplementation/feature"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//Mapping/ChildFeatureImplementation/startrule"/>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="NewPackage3" disposableProviderFactory="true" ecorePackage="languagevariability.ecore#//concern">
+      <genClasses ecoreClass="languagevariability.ecore#//concern/LanguageConcernInterface">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//concern/LanguageConcernInterface/unimplementedinterfacerule"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//concern/LanguageConcernInterface/contextcondition"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//concern/LanguageConcernInterface/startrule"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//concern/LanguageConcernInterface/generatorinterface"/>
+      </genClasses>
+      <genClasses ecoreClass="languagevariability.ecore#//concern/LanguageConcernImplementation">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//concern/LanguageConcernImplementation/implements"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference languagevariability.ecore#//concern/LanguageConcernImplementation/grammar"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference languagevariability.ecore#//concern/LanguageConcernImplementation/contextcondition"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference languagevariability.ecore#//concern/LanguageConcernImplementation/codegenerator"/>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="NewPackage4" disposableProviderFactory="true" ecorePackage="languagevariability.ecore#//grammar">
+      <genClasses ecoreClass="languagevariability.ecore#//grammar/Grammar">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference languagevariability.ecore#//grammar/Grammar/rule"/>
+      </genClasses>
+      <genClasses ecoreClass="languagevariability.ecore#//grammar/Rule"/>
+      <genClasses ecoreClass="languagevariability.ecore#//grammar/StartRule">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//grammar/StartRule/rule"/>
+      </genClasses>
+      <genClasses ecoreClass="languagevariability.ecore#//grammar/UnimplementedInterfaceRule"/>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="NewPackage5" disposableProviderFactory="true" ecorePackage="languagevariability.ecore#//context">
+      <genClasses ecoreClass="languagevariability.ecore#//context/ContextCondition">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//context/ContextCondition/rule"/>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Codegeneration" disposableProviderFactory="true" ecorePackage="languagevariability.ecore#//codegeneration">
+      <genClasses ecoreClass="languagevariability.ecore#//codegeneration/CodeGenerator">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//codegeneration/CodeGenerator/generatorinterface"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//codegeneration/CodeGenerator/artifactinterface"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//codegeneration/CodeGenerator/startrule"/>
+      </genClasses>
+      <genClasses ecoreClass="languagevariability.ecore#//codegeneration/GeneratorInterface">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference languagevariability.ecore#//codegeneration/GeneratorInterface/extensionpoint"/>
+      </genClasses>
+      <genClasses ecoreClass="languagevariability.ecore#//codegeneration/ExtensionPoint">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//codegeneration/ExtensionPoint/artifactinterface"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//codegeneration/ExtensionPoint/generatorinterface"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//codegeneration/ExtensionPoint/unimplementedinterfacerule"/>
+      </genClasses>
+      <genClasses ecoreClass="languagevariability.ecore#//codegeneration/ArtifactInterface"/>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="NewPackage7" disposableProviderFactory="true" ecorePackage="languagevariability.ecore#//metamodel">
+      <genClasses ecoreClass="languagevariability.ecore#//metamodel/Class">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference languagevariability.ecore#//metamodel/Class/relationships"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute languagevariability.ecore#//metamodel/Class/name"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference languagevariability.ecore#//metamodel/Class/required"/>
+      </genClasses>
+      <genClasses ecoreClass="languagevariability.ecore#//metamodel/Relation">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//metamodel/Relation/to"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute languagevariability.ecore#//metamodel/Relation/name"/>
+      </genClasses>
+      <genClasses ecoreClass="languagevariability.ecore#//metamodel/Required"/>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="NewPackage8" disposableProviderFactory="true" ecorePackage="languagevariability.ecore#//operationalsemantics">
+      <genClasses ecoreClass="languagevariability.ecore#//operationalsemantics/OpenClass">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference languagevariability.ecore#//operationalsemantics/OpenClass/class"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference languagevariability.ecore#//operationalsemantics/OpenClass/methods"/>
+      </genClasses>
+      <genClasses ecoreClass="languagevariability.ecore#//operationalsemantics/Methods">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference languagevariability.ecore#//operationalsemantics/Methods/statements"/>
+      </genClasses>
+      <genClasses ecoreClass="languagevariability.ecore#//operationalsemantics/Statement"/>
+    </nestedGenPackages>
+  </genPackages>
+</genmodel:GenModel>

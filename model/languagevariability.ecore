@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="languagevariability" nsURI="http://www.example.org/languagevariability"
+    nsPrefix="languagevariability">
+  <eSubpackages name="variability" nsURI="http://variability" nsPrefix="variability">
+    <eClassifiers xsi:type="ecore:EClass" name="FeatureModel">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="features" upperBound="-1"
+          eType="#//variability/Feature"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Feature">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="children" upperBound="-1"
+          eType="#//variability/FeatureGroup" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="languageconcerninterface"
+          eType="#//concern/LanguageConcernInterface"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="FeatureGroup">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="members" upperBound="-1"
+          eType="#//variability/Feature" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="constraints" upperBound="-1"
+          eType="#//variability/Constraint" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Constraint"/>
+  </eSubpackages>
+  <eSubpackages name="Mapping" nsURI="http://Mapping" nsPrefix="Mapping">
+    <eClassifiers xsi:type="ecore:EClass" name="ParentFeatureExtensionPoint">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="feature" eType="#//variability/Feature"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="unimplementedinterfacerule"
+          eType="#//grammar/UnimplementedInterfaceRule"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="FeatureModelBinding">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="parentfeatureextensionpoint"
+          eType="#//Mapping/ParentFeatureExtensionPoint"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="childfeatureimplementation"
+          eType="#//Mapping/ChildFeatureImplementation"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="BindingRule">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="featuremodelbinding"
+          eType="#//Mapping/FeatureModelBinding"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="FeatureModelBinding2">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="bindingrule" upperBound="-1"
+          eType="#//Mapping/BindingRule" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="featuremodel" eType="#//variability/FeatureModel"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ChildFeatureImplementation">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="feature" eType="#//variability/Feature"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="startrule" eType="#//grammar/StartRule"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="concern" nsURI="http://concern" nsPrefix="concern">
+    <eClassifiers xsi:type="ecore:EClass" name="LanguageConcernInterface">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="unimplementedinterfacerule"
+          eType="#//grammar/UnimplementedInterfaceRule"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="contextcondition" eType="#//context/ContextCondition"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="startrule" eType="#//grammar/StartRule"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="generatorinterface" eType="#//codegeneration/GeneratorInterface"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="LanguageConcernImplementation">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="implements" lowerBound="1"
+          eType="#//concern/LanguageConcernInterface"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="grammar" upperBound="-1"
+          eType="#//grammar/Grammar" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="contextcondition" upperBound="-1"
+          eType="#//context/ContextCondition" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="codegenerator" upperBound="-1"
+          eType="#//codegeneration/CodeGenerator" containment="true"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="grammar" nsURI="http://grammar" nsPrefix="grammar">
+    <eClassifiers xsi:type="ecore:EClass" name="Grammar">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="rule" upperBound="-1"
+          eType="#//grammar/Rule" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Rule"/>
+    <eClassifiers xsi:type="ecore:EClass" name="StartRule" eSuperTypes="#//grammar/Rule">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="rule" eType="#//grammar/Rule"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="UnimplementedInterfaceRule" eSuperTypes="#//grammar/Rule"/>
+  </eSubpackages>
+  <eSubpackages name="context" nsURI="http://context" nsPrefix="context">
+    <eClassifiers xsi:type="ecore:EClass" name="ContextCondition">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="rule" eType="#//grammar/Rule"/>
+    </eClassifiers>
+  </eSubpackages>
+  <eSubpackages name="codegeneration" nsURI="http://codegeneration" nsPrefix="codegeneration">
+    <eClassifiers xsi:type="ecore:EClass" name="CodeGenerator">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="generatorinterface" eType="#//codegeneration/GeneratorInterface"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="artifactinterface" eType="#//codegeneration/ArtifactInterface"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="startrule" eType="#//grammar/StartRule"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="GeneratorInterface">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="extensionpoint" upperBound="-1"
+          eType="#//codegeneration/ExtensionPoint" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ExtensionPoint">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="artifactinterface" eType="#//codegeneration/ArtifactInterface"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="generatorinterface" eType="#//codegeneration/GeneratorInterface"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="unimplementedinterfacerule"
+          eType="#//grammar/UnimplementedInterfaceRule"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="ArtifactInterface"/>
+  </eSubpackages>
+  <eSubpackages name="metamodel">
+    <eClassifiers xsi:type="ecore:EClass" name="Class">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="relationships" upperBound="-1"
+          eType="#//metamodel/Relation" containment="true"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="required" eType="#//metamodel/Required"
+          containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Relation">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="to" lowerBound="1" eType="#//metamodel/Class"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Required"/>
+  </eSubpackages>
+  <eSubpackages name="operationalsemantics">
+    <eClassifiers xsi:type="ecore:EClass" name="OpenClass">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="class" lowerBound="1"
+          eType="#//metamodel/Class"/>
+      <eStructuralFeatures xsi:type="ecore:EReference" name="methods" upperBound="-1"
+          eType="#//operationalsemantics/Methods" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Methods">
+      <eStructuralFeatures xsi:type="ecore:EReference" name="statements" upperBound="-1"
+          eType="#//operationalsemantics/Statement" containment="true"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" name="Statement"/>
+  </eSubpackages>
+</ecore:EPackage>
